@@ -1,6 +1,6 @@
 const gifts1 = ['car', 'doll#arm', 'ball', '#train']
 const good1 = filterGifts(gifts1)
-console.log(good1)
+console.log(good1) // ['car', 'ball']
 
 
 function filterGifts(gifts) {
