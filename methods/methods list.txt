@@ -1,0 +1,80 @@
+Here’s a comprehensive list of commonly used JavaScript methods, organized by category for quick reference.
+
+1. String Methods
+
+.length – Returns string length
+.charAt(index) – Returns character at position
+.charCodeAt(index) – Returns Unicode of character
+.concat(str2) – Joins strings
+.includes(substring) – Checks if substring exists
+.indexOf(substring) – First occurrence index
+.lastIndexOf(substring) – Last occurrence index
+.slice(start, end) – Extracts part of string
+.substring(start, end) – Extracts part (no negative index)
+.toLowerCase() / .toUpperCase() – Case conversion
+.trim() / .trimStart() / .trimEnd() – Remove spaces
+.replace(search, replace) – Replace first match
+.replaceAll(search, replace) – Replace all matches
+.split(separator) – Converts to array
+
+
+2. Array Methods
+
+.length – Number of elements
+.push(item) / .pop() – Add/remove from end
+.shift() / .unshift(item) – Remove/add from start
+.concat(array2) – Merge arrays
+.slice(start, end) – Copy portion
+.splice(start, deleteCount, ...items) – Add/remove elements
+.indexOf(item) / .lastIndexOf(item) – Find index
+.includes(item) – Check existence
+.forEach(callback) – Loop through elements
+.map(callback) – Transform array
+.filter(callback) – Filter elements
+.reduce(callback, initialValue) – Accumulate values
+.find(callback) / .findIndex(callback) – Find element/index
+.sort(compareFn) – Sort array
+.reverse() – Reverse order
+.flat(depth) – Flatten nested arrays
+.join(separator) – Convert to string
+
+
+3. Object Methods
+
+Object.keys(obj) – Array of keys
+Object.values(obj) – Array of values
+Object.entries(obj) – Array of [key, value] pairs
+Object.assign(target, source) – Copy properties
+Object.freeze(obj) – Make immutable
+Object.seal(obj) – Prevent adding/removing props
+Object.hasOwn(obj, key) – Check own property
+
+
+4. Number & Math Methods
+
+.toFixed(digits) – Fixed decimal places
+.toPrecision(digits) – Precision formatting
+Math.round(num) – Round to nearest integer
+Math.floor(num) – Round down
+Math.ceil(num) – Round up
+Math.abs(num) – Absolute value
+Math.max(...nums) / Math.min(...nums) – Largest/smallest
+Math.random() – Random number (0–1)
+Math.pow(base, exp) – Power
+Math.sqrt(num) – Square root
+
+
+5. Date Methods
+
+new Date() – Current date/time
+.getFullYear() / .setFullYear(year)
+.getMonth() / .setMonth(month)
+.getDate() / .setDate(day)
+.getDay() – Day of week (0–6)
+.getHours() / .setHours(hour)
+.toISOString() – ISO format
+.toLocaleDateString() / .toLocaleTimeString()
+
+
+✅ If you want, I can prepare a JavaScript cheat sheet with examples for each method so you can test them directly in the browser console.
+Do you want me to prepare that?
